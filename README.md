@@ -1,2 +1,2 @@
 # ruby_project
-There is some texst
+There is some text
