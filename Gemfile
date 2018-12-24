@@ -55,3 +55,5 @@ gem 'devise'
 gem 'carrierwave'
 
 gem 'cancancan', '~> 2.0'
+
+gem 'activeadmin_froala_editor'
