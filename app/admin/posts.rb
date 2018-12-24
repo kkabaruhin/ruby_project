@@ -1,5 +1,5 @@
 ActiveAdmin.register Post do
-  permit_params :title, :text, :admin_user_id
+  permit_params :title, :body
 
   filter :title
   #after_build do |x|
@@ -18,7 +18,7 @@ end
   form do |f|
     f.inputs do
       f.input :title
-      f.input :text, as: :froala_editor
+      f.input :body, as: :froala_editor
     end
     f.actions
   end
