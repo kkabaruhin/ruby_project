@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45c89c7f-3731-465b-b8c8-db7b18382577" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="45c89c7f-3731-465b-b8c8-db7b18382577" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +376,7 @@
       <workItem from="1545403113980" duration="1189000" />
       <workItem from="1545636041810" duration="5093000" />
       <workItem from="1545721588256" duration="696000" />
-      <workItem from="1545722418781" duration="897000" />
+      <workItem from="1545722418781" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1544612961949</created>
@@ -451,11 +448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545723198338</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit work">
+      <created>1545723457301</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1545723457301</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50091000" />
+    <option name="totallyTimeSpent" value="50802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,7 +509,8 @@
     <MESSAGE value="Добавлены посты и роли. Сервер еще должен запускаться, но при попытке открыть админку все ломается." />
     <MESSAGE value="все еще посты и роли. Прошло много дней. Ничего не починилось." />
     <MESSAGE value="commit init" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit init" />
+    <MESSAGE value="commit work" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit work" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/thor-0.20.3/lib/thor/command.rb">
