@@ -8,10 +8,8 @@ ActiveAdmin.register Post do
 
 index do
   selectable_column
-  id_column column :title
-  column :author do |p|
-    p.admin_user.email
-  end
+  id_column
+  column :title
   column :created_at
   actions
 end
