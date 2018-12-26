@@ -7,12 +7,11 @@ class Ability
       can :manage, :all
     when AdminUser::CITIZEN_ROLE
       can :read, :all
-      can :create, :comment
+      can :create, :comment          # !!!! НЕ РАБОТАЕТ
       can :create, Post
     when AdminUser::SERVICES_ROLE
       can :read, :all
       can :create, Announcement
-      can :create, :comment
     when AdminUser::GUEST_ROLE
       can :read, Post
       can :read, Announcement
