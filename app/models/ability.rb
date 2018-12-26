@@ -5,9 +5,12 @@ class Ability
     case user.role
     when AdminUser::ADMIN_ROLE
       can :manage, :all
-    when AdminUser::AUTHOR_ROLE
+    when AdminUser::CITIZEN_ROLE
       can :read, Post
-      can :create, Post
+      can :create, :all
+    when AdminUser::SERVICES_ROLE
+      can :read, Post
+      can :create, :comment
     when AdminUser::GUEST_ROLE
       can :read, Post
     else
