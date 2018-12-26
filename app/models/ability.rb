@@ -6,13 +6,16 @@ class Ability
     when AdminUser::ADMIN_ROLE
       can :manage, :all
     when AdminUser::CITIZEN_ROLE
-      can :read, Post
-      can :create, :all
+      can :read, :all
+      can :create, :comment
+      can :create, Post
     when AdminUser::SERVICES_ROLE
-      can :read, Post
+      can :read, :all
+      can :create, Announcement
       can :create, :comment
     when AdminUser::GUEST_ROLE
       can :read, Post
+      can :read, Announcement
     else
       return
     end
